@@ -5,4 +5,4 @@ reg ADD "HKLM\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-T
 start powershell.exe -NoExit -Command "ngrok tcp 3389 --region in"
 echo "Successfully Enabled RDP Access..."
 
-REM wall.bat
+wall.bat
