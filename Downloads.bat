@@ -1,4 +1,4 @@
-@echo off
+@echo OFF
 setlocal
 choco install ngrok -y --no-progress
 choco install nssm -y --no-progress
@@ -11,7 +11,7 @@ curl -s -L -o C:\Users\Public\Desktop\Telegram.exe https://telegram.org/dl/deskt
 curl -s -L -o C:\Users\Public\Desktop\Winrar.exe https://www.rarlab.com/rar/winrar-x64-621.exe
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 C:\Users\Public\Desktop\Telegram.exe /VERYSILENT /NORESTART
-del C:\Users\Public\Desktop\Telegram.exe
+DEL C:\Users\Public\Desktop\Telegram.exe
 C:\Users\Public\Desktop\Winrar.exe /S
-del C:\Users\Public\Desktop\Winrar.exe
+DEL C:\Users\Public\Desktop\Winrar.exe
 pip install pyautogui --quiet
